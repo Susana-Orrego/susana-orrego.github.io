@@ -1,0 +1,624 @@
+:root{
+    --color-primario: white; 
+    --color-secundario: #111111; 
+    --color-terciario: #79b542;
+    --color-cuatro: #333333;
+    --font-titulo: 'Raleway', sans-serif;
+}
+
+*{
+    text-decoration: none;
+    font-family: var(--font-titulo);
+
+} 
+
+img{
+    width: 100%; 
+    height: auto;
+}
+
+
+
+
+.nav {
+    display: flex;
+    background-color: var(--color-secundario);
+    justify-content: center;
+    
+}
+
+.logo1 {
+    width: 9.5em;
+    justify-content: flex-start;
+    margin-left: 9.5em;
+}
+
+.nav1{
+    align-self: center;
+}
+
+.nav1 li {
+   display: inline;
+
+}
+
+.nav1 a {
+    padding: 0.4em;
+    margin-right: 0.6em;
+    margin-left: 0.6em;
+    color: var(--color-primario);
+    font-weight: bold;
+ }
+
+.nav1 a:hover {
+        color: var(--color-terciario);
+    
+ }
+
+.nav2 {
+    align-self: center;
+}
+
+.nav2 a {
+    color: var(--color-primario);
+    font-weight: bold;
+    background-color: var(--color-terciario);
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 1em;
+    padding: 0.6em 1.25em;
+}
+
+.nav2 a:hover {
+    color: var(--color-terciario);
+    background-color: var(--color-cuatro);
+    
+ }
+
+.marca{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-terciario);
+    color: var(--color-secundario);
+    justify-content: center;
+
+
+}
+
+.parrafo {
+    
+    text-align: left;
+    padding: 0.6em 0.4em;
+    flex-basis: 50%;
+    margin-right: 0.4em;
+}
+
+.texto2 {
+    text-align: left;
+    padding-top: 0.6em 0.4em;
+    
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+h2{
+    font-size: 4.4em;
+    margin-top: 1.2em;
+    margin-bottom: 1.9em;
+
+}
+
+p{
+    font-size: 1.5em;
+}
+.logo2 {
+    width: 25em;
+    align-self: center;
+    margin-left: 0em;
+}
+
+.logotipos {
+    display: flex;
+    background-color: var(--color-primario);
+    color: var(--color-cuatro);
+    justify-content: left;
+    
+}
+
+
+
+.logotipo {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-primario);
+    justify-content: left;
+    margin-left: 6.2em;
+    
+
+}
+
+.logotipo1 {
+    width: 25em;
+    margin-right: 0.4em;
+}
+
+.logotipo2 {
+    width: 25em;
+    margin-right: 0.4em;
+    margin-left: 0.4em;
+}
+
+.logotipo3 {
+    width: 25em;
+    margin-left: 0.4em;
+}
+
+
+
+.footer {
+    display: flex;
+    background-color: var(--color-secundario);
+    justify-content: center;
+    color: var(--color-primario);
+    height: 15.6em;
+    margin-top: 3.1;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+
+}
+
+.logofooter {
+    width: 12.5em;
+    align-self: center;
+    margin-right: 1.2em;
+    margin-left: 1.2em;
+}
+
+.footer ul{
+    padding: 0em;
+    list-style: none;
+}
+
+.conocenos {
+    align-self: center;
+    margin-right: 3.1em;
+    margin-left: 3.1em;
+    line-height: 200%;
+
+}
+
+.conocenos a {
+    color: var(--color-primario);
+
+ }
+
+.conocenos a:hover {
+    color: var(--color-primario);
+    text-decoration: underline;
+    
+ }
+
+.empresa {
+    align-self: center;
+    margin-right: 3.1em;
+    margin-left:  3.1em;
+    line-height: 200%;
+}
+
+.empresa a {
+    color: var(--color-primario);
+
+ }
+
+.empresa a:hover {
+    color: var(--color-primario);
+    text-decoration: underline;
+    
+ }
+
+.comunidades {
+    align-self: center;
+    margin-right:  3.1em;
+    margin-left:  3.1em;
+    line-height: 200%;
+}
+
+.comunidades a {
+    color: var(--color-primario);
+
+ }
+
+.comunidades a:hover {
+    color: var(--color-primario);
+    text-decoration: underline;
+    
+ }
+
+.enlaces {
+    align-self: center;
+    margin-left:  3.1em;
+    line-height: 200%;
+}
+
+.enlaces a {
+    color: var(--color-primario);
+
+ }
+
+.enlaces a:hover {
+    color: var(--color-primario);
+    text-decoration: underline;
+    
+ }
+
+ /* ##Dispositivo = Smartphones de 320px a 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+   
+    h2 {
+        font-size: 1.9em;
+    }
+    
+    p{
+        font-size: 0.5em;
+    }
+
+
+    .container {
+        width: 100%; 
+        
+    }
+
+    .nav{
+            width: 130%;   
+            flex-wrap: wrap;
+            padding-bottom: 31.2em;
+            justify-content: center;
+        }
+    
+    .logo1{
+            margin: auto;  
+        }
+    
+    .nav2 {
+            align-self: center;
+          
+        }
+    .nav1 a {
+            padding: 0.3em;
+            margin-right: 0.2em;
+            margin-left: 0.2em;
+           
+        }
+         
+    .nav1 {
+            align-self: center;
+            margin-top: -1.5em;
+        }
+    .marca{
+                flex-wrap: wrap;
+                margin-top: 0.5em;
+                width: 130%;
+                }
+        
+    .parrafo{
+                margin-bottom: -2.5em;
+            }
+          
+    
+    .logo2 {
+                width: 16em;
+                align-self: center;
+            }
+        
+       
+    
+    .texto2{
+                font-weight: bold;
+                text-align: left;
+                padding: 3.75em;
+                padding-bottom: 2em;
+                flex-basis: 50%;
+                margin-top: -1.06em;
+                margin-left: 5%;
+                margin-right: 0.31em;
+             }
+        
+    .logotipos{
+                flex-direction: column;
+                justify-content: center;
+                width: 130%;
+                 }     
+            
+    .logotipo1{
+                align-items: center;
+                margin-right: auto;
+            }
+        
+    .logotipo2{
+                align-items: center;
+                margin: auto;
+            }
+        
+    .logotipo3{
+                align-items: center;
+                margin-left: auto;
+            }
+        
+            
+    .footer{
+                flex-wrap: wrap;
+                height: 31.2em;
+                width: 130%
+            }
+        
+    .logofooter{
+                margin: auto;
+            }
+    
+ 
+
+        .marca{
+            display: flex;
+            flex-wrap: wrap;
+           
+        
+        }
+        .footer {
+            display: flex;
+            justify-content: flex-start ;
+            height: 100%;
+            margin-top: 0.6em;
+        
+        }
+        .conocenos{
+            padding-left: 3.1em;
+        }
+
+        .logotipo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            margin-left: 3.1em;
+            
+        
+        }
+        
+            
+        }
+        
+    
+
+    
+/* ##Dispositivo = Tablets, Mobiles de 481px a 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+   
+   
+  
+    h2 {
+        font-size: 3.7em;
+    }
+    
+    p{
+        font-size: 1em;
+    }
+  
+    .nav{
+        flex-direction: column;
+    }
+
+    .logo1{
+        margin: auto;  
+    }
+
+    .nav2 {
+        align-self: center;
+        margin-top: 1.2em;
+    }
+
+    .nav1 {
+        align-self: center;
+        margin-top: -1.5em;
+    }
+    
+    .marca{
+            flex-wrap: wrap;
+            margin-top: 2.7em;
+            width: 100%;
+            }
+    
+    .parrafo{
+            margin-bottom: -2.5em;
+        }
+      
+
+    .logo2 {
+            width: 25empx;
+            align-self: center;
+        }
+    
+    .logotipo{
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-left: 31.2em;
+        }    
+
+    .texto2{
+            font-weight: bold;
+            text-align: left;
+            padding: 3.75em;
+            padding-bottom: 2em;
+            flex-basis: 50%;
+            margin-top: -1.06em;
+            margin-left: 5%;
+            margin-right: 0.31em;
+         }
+    
+    .logotipos{
+            flex-direction: column;
+            justify-content: center;
+             }     
+        
+    .logotipo1{
+            align-items: center;
+            margin-right: 6.2em;
+        }
+    
+    .logotipo2{
+            align-items: center;
+            margin-right: 6.2em;
+        }
+    
+    .logotipo3{
+            align-items: center;
+            margin-left: 0.5em;
+        }
+    
+        
+    .footer{
+            flex-wrap: wrap;
+            height: 25em;
+            width: 100%
+        }
+    
+    .logofooter{
+            margin: auto;
+        }
+
+    .conocenos{
+        margin: 1em;
+    }
+
+    .empresa{
+        margin: 1em;
+    }
+
+    .comunidades{
+        margin: 1em;
+    }
+
+    .enlaces{
+        margin: 1em;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: flex-start ;
+        height: 100%;
+        margin-top: 0.6em;
+    
+    }
+    .conocenos{
+        padding-left: 3.1em;
+    }
+      }
+
+        
+
+/* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px)  {
+   
+    
+    
+    .nav{
+        flex-direction: column;
+    }
+
+    .logo1{
+        margin: auto;  
+    }
+
+    .nav2 {
+        align-self: center;
+        margin-top: 1.5em;
+    }
+
+    .nav1 {
+        align-self: center;
+        margin-top: -1.5em;
+    }
+
+    .marca{
+        flex-wrap: wrap;
+        margin-top: 2em;
+    }
+
+    .parrafo{
+        margin-bottom: -2.5em;
+    }
+
+    .texto2{
+        font-weight: bold;
+        text-align: left;
+        padding: 3.75em;
+        padding-bottom: 2em;
+        flex-basis: 50%;
+        margin-top: -1.06em;
+        margin-left: 5%;
+        margin-right: 0.31em;
+    }
+
+    .logo2 {
+        width: 25em;
+        align-self: center;
+    }
+
+    .logotipo{
+        flex-wrap: wrap;
+        
+    }     
+
+    .logotipos{
+        flex-direction: column;
+        justify-content: center;
+    }     
+    
+    .logotipo1{
+        align-items: center;
+        margin: auto;
+    }
+
+    .logotipo2{
+        align-items: center;
+        margin: auto;
+    }
+
+    .logotipo3{
+        align-items: center;
+        margin: auto;
+    }
+
+    .footer{
+        flex-wrap: wrap;
+        height: 18.7em;
+        width: 100%;
+    }
+
+    .logofooter{
+        margin: auto;
+    }
+    .conocenos{
+        margin: 1em;
+    }
+
+    .empresa{
+        margin: 1em;
+    }
+
+    .comunidades{
+        margin: 1em;
+    }
+
+    .enlaces{
+        margin: 1em;
+    }
+
+    .logotipo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin-left: 3.1em;
+        
+    
+    }
+
+}
